@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Titip Nulis</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #135c19;
+      color: #9bdbdd;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-[#f4f1ed] text-[#3b3a36]">
+  <!-- Header -->
+  <header class="bg-[#135c19] text-white p-6">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold tracking-wide">Titip Nulis</h1>
+      <a href="#order" class="bg-white text-[#2d2b29] px-4 py-2 rounded-xl hover:bg-gray-200">Pesan Sekarang</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-12 px-4 bg-[#eae7dc]">
+    <h2 class="text-3xl font-bold mb-4">Titipin materimu, biar kami yang rapikan ✨</h2>
+    <p class="mb-6 text-lg">Jasa catatan rapi dan aesthetic untuk catatanmu!</p>
+    <a href="#themes" class="bg-[#9bdbdd] text-white px-6 py-3 rounded-xl hover:bg-[#3d594a]">Lihat Tema</a>
+  </section>
+
+  <!-- Themes Section -->
+  <section id="themes" class="max-w-6xl mx-auto py-12 px-4">
+    <h3 class="text-2xl font-bold mb-8 text-center">Tema Desain</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="border p-4 rounded-xl shadow hover:shadow-lg bg-white">
+        <img src="https://i.pinimg.com/736x/ef/22/36/ef22362cfab28258f4eff7c53fc3d4fd.jpg" alt="Basic Clean" class="w-full h-48 object-cover rounded-md mb-4" />
+        <h4 class="font-semibold text-lg">Basic Clean</h4>
+        <p class="text-sm">Rp2.000/halaman - Full hitam, minimalis dan rapi</p>
+      </div>
+      <div class="border p-4 rounded-xl shadow hover:shadow-lg bg-white">
+        <img src="https://i.pinimg.com/736x/e1/98/5d/e1985dea7955290a3b38048676244396.jpg" alt="Aesthetic Light" class="w-full h-48 object-cover rounded-md mb-4" />
+        <h4 class="font-semibold text-lg">Aesthetic Light</h4>
+        <p class="text-sm">Rp2.500/halaman - Ringan, bersih, dan estetis</p>
+      </div>
+      <div class="border p-4 rounded-xl shadow hover:shadow-lg bg-white">
+        <img src="https://i.pinimg.com/736x/82/54/71/82547197d4b1f3631984c79f1601c431.jpg" alt="Aesthetic Full" class="w-full h-48 object-cover rounded-md mb-4" />
+        <h4 class="font-semibold text-lg">Aesthetic Full</h4>
+        <p class="text-sm">Rp3.000 – Rp4.000/halaman - Sesuai tema/request</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section class="bg-[#d8cfc4] py-12 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-2xl font-bold mb-8 text-center">Paket Desain Per Bab</h3>
+      <ul class="space-y-4 text-center">
+        <li><strong>Basic Clean</strong> – Rp10.000/bab</li>
+        <li><strong>Aesthetic Light</strong> – Rp12.000/bab</li>
+        <li><strong>Aesthetic Full</strong> – Rp15.000/bab</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Order Section -->
+  <section id="order" class="text-center py-12 px-4">
+    <h3 class="text-2xl font-bold mb-4">Pesan Sekarang</h3>
+    <p class="mb-6">Langsung hubungi kami via WhatsApp untuk order atau tanya-tanya ✨</p>
+    <a href="https://wa.me/6281234567890" target="_blank" class="bg-[#6a8a82] text-white px-6 py-3 rounded-xl hover:bg-[#5b786f]">Chat di WhatsApp</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#2d2b29] text-white py-6 text-center">
+    <p>&copy; 2025 Titip Nulis. All rights reserved.</p>
+  </footer>
+</body>
+</html>
